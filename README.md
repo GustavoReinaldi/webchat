@@ -11,7 +11,13 @@
 This is an implementation of WebSockets in a web chat format. Basically, this is an application of Websockets concepts for study purposes.
 
 I hope you like my implementation.
+> [!IMPORTANT]
+> The real goal of this app is to learn the concepts of Web Sockets, and how to implement this connection between frontend and backend.
+> Once learned all this basic concepts I'll be able to create a more complex project, that is coming soon.
+>
+> This _"complex project"_ consists in a home broker with authentication/authorization services, multi-threading, web sockets, persistence in database, and more tools that will increment the complexity level.
 
+---
 
 ![Webchat - Print Screen](./assets/images/conversarion-demo.png)
 
@@ -28,14 +34,8 @@ I hope you like my implementation.
 2. Run `npm install` and then run `node src/index.js` to start server. 
 3. By default you can find the server in `http://localhost:8080`.
 
-## Build frontend
+## Do a Pull Request =)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+If you have any fixing or a new feature idea, I'll be so thankful if you help me to improve this basic project doing a Pull Request.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+I hope you enjoy it!
