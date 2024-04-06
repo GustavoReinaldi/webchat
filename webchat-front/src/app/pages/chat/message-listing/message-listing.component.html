@@ -1,0 +1,8 @@
+<ul id="messages">
+  <li *ngFor="let msg of messages" [ngClass]="msg.sended ? 'sended' : 'received'">
+    <div class="message-container">
+      <p *ngIf="(!msg.sended)" class="message-sender">{{ msg.name }}</p>
+      <p class="message-content">{{ msg.message }}</p>
+    </div>
+  </li>
+</ul>

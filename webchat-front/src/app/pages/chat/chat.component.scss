@@ -1,0 +1,33 @@
+#form {
+  #input {
+    border: none;
+    padding: 0 1rem;
+    flex-grow: 1;
+    border-radius: 2rem;
+    margin: 0.25rem;
+  }
+  #input:focus {
+    outline: none;
+  }
+  button {
+    width: 100px;
+    background: #353;
+    border: none;
+    padding: 0 1rem;
+    margin: 0.25rem 0.25rem 0.25rem 50px;
+    border-radius: 10px;
+    outline: none;
+    color: #fff;
+  }
+  
+  background: rgba(0, 0, 0, 0.15);
+  padding: 0.25rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  height: 50px;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+}
